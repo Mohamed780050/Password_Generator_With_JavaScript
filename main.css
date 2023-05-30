@@ -11,11 +11,16 @@ body {
   background-color: white;
   min-width: 250px;
   width: fit-content;
+<<<<<<< HEAD
   overflow: scroll;
   max-width: 600px;
   min-height: 55px;
   height: fit-content;
   max-height: 600px;
+=======
+  min-height: 55px;
+  height: fit-content;
+>>>>>>> 2535b48204c34e644773d4ce106413f68ae3f087
   margin: 10px auto;
   border-radius: 6px;
 }
