@@ -11,7 +11,11 @@ body {
   background-color: white;
   min-width: 250px;
   width: fit-content;
-  height: 55px;
+  overflow: scroll;
+  max-width: 600px;
+  min-height: 55px;
+  height: fit-content;
+  max-height: 600px;
   margin: 10px auto;
   border-radius: 6px;
 }

@@ -11,19 +11,19 @@ btn.onclick = function () {
     Only_letters.checked == true &&
     Only_SC.checked == true
   ) {
-    character = `0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()-_=+\\|}{][''"";:/?><.,\``;
+    character = `0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()-_=+|}{][''"";:/?><.,\``;
   } else if (Only_Numbers.checked == true && Only_letters.checked == true) {
     character = `0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM`;
   } else if (Only_Numbers.checked == true && Only_SC.checked == true) {
-    character = `0123456789!@#$%^&*()-_=+\\|}{][''"";:/?><.,\``;
+    character = `0123456789!@#$%^&*()-_=+|}{][''"";:/?><.,\``;
   } else if (Only_letters.checked == true && Only_SC.checked == true) {
-    character = `qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()-_=+\\|}{][''"";:/?><.,\``;
+    character = `qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()-_=+|}{][''"";:/?><.,\``;
   } else if (Only_Numbers.checked == true) {
     character = `0123456789`;
   } else if (Only_letters.checked == true) {
     character = `qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM`;
   } else if (Only_SC.checked == true) {
-    character = `!@#$%^&*()-_=+\\|}{][''"";:/?><.,\``;
+    character = `!@#$%^&*()-_=+|}{][''"";:/?><.,\``;
   }
   let Password_char_Number = Password_Length.value - 1;
   let Password = "";
